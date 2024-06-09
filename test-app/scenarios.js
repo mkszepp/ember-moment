@@ -26,7 +26,7 @@ Scenarios.fromDir(__dirname)
       });
     });
   });
-
+/*
 async function lts_3_16(project) {
   project.linkDevDependency('ember-cli', {
     baseDir: __dirname,
@@ -59,7 +59,7 @@ async function lts_3_24(project) {
     resolveName: 'ember-source-3.24',
   });
 }
-
+*/
 async function lts_3_28(project) {
   project.linkDevDependency('ember-cli', {
     baseDir: __dirname,
@@ -68,7 +68,7 @@ async function lts_3_28(project) {
     baseDir: __dirname,
   });
 }
-
+/*
 async function release(project) {
   project.linkDevDependency('ember-cli', {
     baseDir: __dirname,
@@ -97,7 +97,7 @@ async function canary(project) {
     resolveName: 'ember-source-canary',
   });
 }
-
+*/
 async function embroider(project) {
   project.linkDevDependency('@embroider/core', {
     baseDir: __dirname,
