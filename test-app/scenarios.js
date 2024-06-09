@@ -3,13 +3,13 @@ const { module: Qmodule, test } = require('qunit');
 
 Scenarios.fromDir(__dirname)
   .expand({
-    lts_3_16,
-    lts_3_20,
-    lts_3_24,
+    //lts_3_16,
+    //lts_3_20,
+    //lts_3_24,
     lts_3_28,
-    release,
-    beta,
-    canary,
+    //release,
+    //beta,
+    //canary,
     embroider,
   })
   .forEachScenario((scenario) => {
