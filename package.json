@@ -45,6 +45,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@ember/optional-features": "^2.0.0",
+    "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^2.6.0",
     "@embroider/addon-dev": "^0.50.2",
     "@embroider/compat": "npm:@embroider/compat@latest",
@@ -150,5 +151,6 @@
   "volta": {
     "node": "20.15.0",
     "yarn": "1.22.22"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
